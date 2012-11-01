@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nsJavaModule:JavaModule xmlns:nsJavaModule="http://xcp.emc.com/javamodule" 
+	urn="urn:dev:com.emc.xcp.artifact.javamodule.category:Artifacts/Java Modules/xcp2_ExcelUtil.javamodule" 
+	categoryId="com.emc.xcp.artifact.javamodule.category" name="xcp2_ExcelUtil.javamodule" label="ExcelUtil" 
+	implementationClass="com.emc.community.xcelerators.excelutil.impl.ExcelUtilImpl">
+<interfaceClassNames>com.emc.community.xcelerators.excelutil.IExcelUtil</interfaceClassNames>
+	
+  <implementationJars contentPath="content/modules/xcp2_ExcelUtil.jar"/>
+  <implementationJars contentPath="content/modules/IExcelUtil.jar"/>
+  <implementationJars contentPath="content/modules/dom4j-1.6.1.jar"/>
+   <implementationJars contentPath="content/modules/geronimo-stax-api_1.0_spec-1.0.jar"/>
+    <implementationJars contentPath="content/modules/junit-3.8.1.jar"/>
+   <implementationJars contentPath="content/modules/poi-3.7-20101029.jar"/>
+    <implementationJars contentPath="content/modules/poi-ooxml-3.7-20101029.jar"/>
+     <implementationJars contentPath="content/modules/poi-ooxml-schemas-3.7-20101029.jar"/>
+     <implementationJars contentPath="content/modules/poi-scratchpad-3.7-20101029.jar"/>
+     <implementationJars contentPath="content/modules/xmlbeans-2.3.0.jar"/>
+</nsJavaModule:JavaModule>
