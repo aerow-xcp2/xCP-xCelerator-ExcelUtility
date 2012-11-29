@@ -2,11 +2,11 @@
 <nsJavaModule:JavaModule xmlns:nsJavaModule="http://xcp.emc.com/javamodule" 
 	urn="urn:dev:com.emc.xcp.artifact.javamodule.category:Artifacts/Java Modules/xcp2_ExcelUtil.javamodule" 
 	categoryId="com.emc.xcp.artifact.javamodule.category" name="xcp2_ExcelUtil.javamodule" label="ExcelUtil" 
-	implementationClass="com.emc.community.xcelerators.excelutil.impl.ExcelUtilImpl">
-<interfaceClassNames>com.emc.community.xcelerators.excelutil.IExcelUtil</interfaceClassNames>
+	implementationClass="com.emc.xcp.xcelerator.excelutil.impl.ExcelUtilImpl">
+<interfaceClassNames>com.emc.xcp.xcelerator.excelutil.IExcelUtil</interfaceClassNames>
 	
   <implementationJars contentPath="content/modules/xcp2_ExcelUtil.jar"/>
-  <implementationJars contentPath="content/modules/IExcelUtil.jar"/>
+  <implementationJars contentPath="content/modules/xcp2_IExcelUtil.jar"/>
   <implementationJars contentPath="content/modules/dom4j-1.6.1.jar"/>
    <implementationJars contentPath="content/modules/geronimo-stax-api_1.0_spec-1.0.jar"/>
     <implementationJars contentPath="content/modules/junit-3.8.1.jar"/>
